@@ -7,10 +7,11 @@ using namespace std;
 #define vl vector<long long>
 
 int main(){
-  triche;
-  int t;
-  cin >> t;
-  while (t--){
-  }
-  return 0;
+    triche;
+    int t;
+    cin >> t;
+    while (t--){
+
+    }
+    return 0;
 }

@@ -11,6 +11,18 @@ int main(){
   int t;
   cin >> t;
   while (t--){
+    int n;
+    cin >> n;
+    int temp;
+    int count = 0;
+    for (int i=0; i<n; i++) {
+      cin >> temp;
+      temp--;
+      if (i == temp) {
+        count++;
+      };
+    }
+    cout << (count + 1) / 2 << endl;
   }
   return 0;
 }

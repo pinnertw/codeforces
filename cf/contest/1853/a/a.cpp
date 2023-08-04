@@ -11,6 +11,21 @@ int main(){
   int t;
   cin >> t;
   while (t--){
+    int n, a, temp;
+    cin >> n;
+    cin >> temp;
+    int ans = INT_MAX;
+    for (int i=1; i<n; i++) {
+      cin >> a;
+      if (a < temp) {
+        ans = 0;
+      }
+      else {
+        ans = min(ans, (a - temp + 2) / 2);
+      }
+      temp = a;
+    }
+    cout << ans << endl;
   }
   return 0;
 }

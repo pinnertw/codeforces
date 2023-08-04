@@ -11,6 +11,14 @@ int main(){
   int t;
   cin >> t;
   while (t--){
+    long long n;
+    cin >> n;
+    int temp = 1;
+    while (n % temp == 0) {
+      temp++;
+    }
+    cout << temp - 1<< endl;
+
   }
   return 0;
 }
